@@ -7,7 +7,6 @@ st.title("Regional Sales Dashboard")
 
 def load_data():
  return pd.read_csv("sales.csv", parse_dates=["date"])
-
 df = load_data()
 
 all_regions = sorted(df["region"].unique())
