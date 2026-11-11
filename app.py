@@ -5,7 +5,7 @@ st.title("Regional Sales Dashboard")
 # D-3
 @cache_data
 # E-1
-def load_data:
+def load_data():
 return pd.read_csv("sales.csv", parse_dates=["date"])
 # G-1
 df = load_data
